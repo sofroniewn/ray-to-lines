@@ -17,6 +17,6 @@ lines = [[[-1,1],[1,1],[1,3],[-1,3]],
   [[2, 2], [2, 3]]]
 results = raytopoly(point, angle, lines)
 check(results.distance, 1)
-check(results.angle, -90)
-check(results.intesection[0], 0)
-check(results.intesection[1], 1)
+check(results.angle, 90)
+check(results.intersection[0], 0)
+check(results.intersection[1], 1)
