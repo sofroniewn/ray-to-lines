@@ -1,0 +1,23 @@
+{
+  "name": "ray-to-lines",
+  "version": "0.0.1",
+  "description": "Determines distance along a ray to a collection of lines",
+  "main": "ray-to-lines.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "ray-to-line": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "keywords": [
+    "ray",
+    "poly"
+  ],
+  "author": "Nicholas Sofroniew",
+  "license": "MIT"
+}
